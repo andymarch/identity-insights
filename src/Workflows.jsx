@@ -19,6 +19,11 @@ const Workflows = () => {
                 </div>
                 <Divider></Divider>
             </Container>
+            <h2 className="ui header">
+                Actions automated
+                <h2 class="sub header">These actions have been carried out on the Okta tenant by workflows in the last week.</h2>
+            </h2>
+            <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/4eb3c8a0-162c-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow%2Fw%2Cto%3Anow%2Fw))" height="600" width="800"></iframe>
         </Container>
         </Grid.Column>
       </Grid>
