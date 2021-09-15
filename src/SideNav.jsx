@@ -13,7 +13,7 @@ const SideNav = (props) => {
   }
 
   return (
-    <div class="ui secondary vertical pointing menu">
+    <div id="sidenav" class="ui secondary vertical pointing menu">
         <div class="header item">Your Identity Cloud</div>
         <Menu.Item 
             to='/okta'

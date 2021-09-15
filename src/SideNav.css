@@ -1,3 +1,7 @@
 .ui.menu{
     margin: unset !important;
 }
+
+#sidenav {
+    height: 100%;
+}
