@@ -40,6 +40,21 @@ const Auth0 = () => {
                 </GridRow>
             </Grid>
         </Container>
+        <Container>
+                <h2 className="ui header">
+                    Today's user authentications
+                    <h2 class="sub header">Authentication traffic to your tenant in 5 minute intervals.</h2>
+                </h2>
+                <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/ed515c50-165b-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow%2Fd%2Cto%3Anow%2Fd))" height="600" width="100%"></iframe>
+        </Container>
+
+        <Container>
+                <h2 className="ui header">
+                    Monthly Active Users
+                    <h2 class="sub header">Current month-to-date active users vs last month</h2>
+                </h2>
+                <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/8a89e360-162b-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow%2Fw%2Cto%3Anow%2Fw))" height="600" width="100%"></iframe>         
+            </Container>
         </Grid.Column>
       </Grid>
     </Container>
