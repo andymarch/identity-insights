@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: rgb(33, 33, 38);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.brandColor {
+  background-color: #00297A !important;
+  color: white;
+}
+
+.brandText {
+  color: #00297A !important;
+}
+
+.topNav {
+  border-bottom-color: rgb(215, 215, 220);
+  border-bottom-style: solid;
+  border-bottom-width: 1px
+}
+
+#root{
+  height: 100%;
+}
+
+.ui.sub.header {
+  text-transform: none;
+}
+
+.productTitle {
+  text-transform: uppercase !important;
+  font-size: 4em !important;
+}
+
+.productPanel{
+  padding-top: 20px !important;
 }

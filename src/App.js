@@ -4,6 +4,9 @@ import { OktaAuth, toRelativeUrl } from '@okta/okta-auth-js';
 import { Security, SecureRoute, LoginCallback } from '@okta/okta-react';
 import config from './config';
 import Home from './Home';
+import Okta from './Okta'
+import Auth0 from './Auth0';
+import Workflows from './Workflows';
 
 const oktaAuth = new OktaAuth(config.oidc);
 
@@ -16,7 +19,10 @@ const App = () => {
   return (
     <Security oktaAuth={oktaAuth} restoreOriginalUri={restoreOriginalUri}>
       <Switch>
-        <SecureRoute path="/" exact component={Home} />
+        <SecureRoute path="/" exact component={Home}/>
+        <SecureRoute path="/okta" exact component={Okta}/>
+        <SecureRoute path="/auth0" exact component={Auth0}/>
+        <SecureRoute path="/workflows" exact component={Workflows}/>
         <Route 
           path="/login/callback"
           component={LoginCallback} 
