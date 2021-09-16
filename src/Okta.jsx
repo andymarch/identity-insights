@@ -40,7 +40,8 @@ const Okta = () => {
                 </GridRow>
             </Grid>
             <Container>
-                
+                <h2 className="ui header">Geographical access</h2>
+                <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/7b5303e0-16c1-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))" height="600" width="100%"></iframe>
             </Container>
             <Container>
                 <h2 className="ui header">
@@ -56,7 +57,7 @@ const Okta = () => {
                     Monthly Active Users
                     <h2 class="sub header">Current month-to-date active users vs last month</h2>
                 </h2>
-                <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/7ff76970-1623-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow%2Fw%2Cto%3Anow%2Fw))" height="600" width="100%"></iframe>         
+                <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/7ff76970-1623-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-1y%2Cto%3Anow))" height="600" width="100%"></iframe>         
             </Container>
         </Container>
         </Grid.Column>
