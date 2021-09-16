@@ -39,6 +39,12 @@ const Home = () => {
               <GridRow>
               <p align="center" className="ui center aligned"><b>Matt Bailey</b></p>
               </GridRow>
+              <GridRow>
+              <p align="center" className="ui center aligned"><b>Platform Specialist</b></p>
+              </GridRow>
+              <GridRow>
+              <p align="center"><img src="/team/UK.png" width="50px"></img></p> 
+              </GridRow>
             </GridColumn>
             <GridColumn>
               <GridRow>
@@ -46,6 +52,12 @@ const Home = () => {
               </GridRow>
               <GridRow>
               <p align="center" className="ui center aligned"><b>Waldemar Rosenfeld</b></p>
+              </GridRow>
+              <GridRow>
+              <p align="center" className="ui center aligned"><b>Platform Specialist</b></p>
+              </GridRow>
+              <GridRow>
+              <p align="center"><img src="/team/Germany.png" width="50px"></img></p> 
               </GridRow>
             </GridColumn>
             <GridColumn>
@@ -55,6 +67,12 @@ const Home = () => {
               <GridRow>
               <p align="center" className="ui center aligned"><b>Tomasz Wrobel</b></p>
               </GridRow>
+              <GridRow>
+              <p align="center" className="ui center aligned"><b>Sr Software Dev</b></p>
+              </GridRow>
+              <GridRow>
+              <p align="center"><img src="/team/Canada.png" width="50px"></img></p> 
+              </GridRow>
             </GridColumn>
             <GridColumn>
               <GridRow>
@@ -63,6 +81,12 @@ const Home = () => {
               <GridRow className="centered">
                 <p align="center" className="ui center aligned"><b>Andy March</b></p>
               </GridRow>
+              <GridRow>
+              <p align="center" className="ui center aligned"><b>Sr Platform Specialist</b></p>
+              </GridRow>
+              <GridRow>
+              <p align="center"><img src="/team/UK.png" width="50px"></img></p> 
+              </GridRow>
             </GridColumn>
             <GridColumn>
               <GridRow>
@@ -70,6 +94,12 @@ const Home = () => {
               </GridRow>
               <GridRow>
               <p align="center" className="ui center aligned"><b>James Perkins</b></p>
+              </GridRow>
+              <GridRow>
+              <p align="center" className="ui center aligned"><b>SE Manager</b></p>
+              </GridRow>
+              <GridRow>
+              <p align="center"><img src="/team/Portugal.png" width="50px"></img></p> 
               </GridRow>
             </GridColumn>
           </Grid>
