@@ -38,6 +38,26 @@ const Okta = () => {
                     <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/56bbbce0-14d0-11ec-a5d7-dbb8ac55717f?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))" height="300" width="500"></iframe>
                     </GridColumn>
                 </GridRow>
+                <GridRow columns="3">
+                    <GridColumn>
+                    <h2 className="ui header">
+                    Users Created last 24hrs
+                    </h2>
+                    <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/abd60110-16ea-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))" height="300" width="300"></iframe>
+                    </GridColumn>
+                    <GridColumn>
+                    <h2 className="ui header">
+                    Users Deleted last 24hrs
+                    </h2>
+                    <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/057370e0-16eb-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-24h%2Cto%3Anow))" height="300" width="300"></iframe>
+                    </GridColumn>
+                    <GridColumn>
+                    <h2 className="ui header">
+                    M2M Tokens Consumed
+                    </h2>
+                    <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/c5058b60-1573-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-1y%2Cto%3Anow))" height="300" width="500"></iframe>
+                    </GridColumn>
+                </GridRow>
             </Grid>
             <Container>
                 <h2 className="ui header">GeoLocation last 24hours</h2>

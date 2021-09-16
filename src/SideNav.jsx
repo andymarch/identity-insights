@@ -39,6 +39,22 @@ const SideNav = (props) => {
             >
             Workflows
         </Menu.Item>
+        <Menu.Item 
+            to='/asa'
+            name='ASA'
+            active={props.activeItem === 'asa'}
+            onClick={handleItemClick}
+            >
+            ASA
+        </Menu.Item>
+        <Menu.Item 
+            to='/oag'
+            name='OAG'
+            active={props.activeItem === 'OAG'}
+            onClick={handleItemClick}
+            >
+            OAG
+        </Menu.Item>
     </div>
   );
 };
