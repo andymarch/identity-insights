@@ -36,7 +36,7 @@ const SideNav = () => {
   return (
     <Menu borderless fluid >
         <Menu.Item header as='a' href='/'><Header as='h2' className='brandText appName'>
-            <i class="eye icon"></i> Identity Insight
+            <i class="eye icon"></i> Identity Insights
         </Header></Menu.Item>
         <Menu.Item fluid>
         </Menu.Item>
