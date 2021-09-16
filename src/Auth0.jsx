@@ -93,6 +93,26 @@ const Auth0 = () => {
 
             <h1>License Compliance</h1>
 
+            <Grid>
+                <GridRow columns="2">
+                    <GridColumn>
+                    <h2 className="ui header">
+                    Monthly Active Users
+                    <h2 class="sub header">Auth0 CIAM is billed on the annualized monthly active users.</h2>
+                    </h2>
+                    <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/19ebf600-1628-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-1y%2Cto%3Anow))" height="300" width="300"></iframe>
+                    </GridColumn>
+                    <GridColumn>
+                    <h2 className="ui header">
+                    M2M Tokens Consumed
+                    <h2 class="sub header">Auth0 machine to machine is billed on total tokens consumed in a year.</h2>
+                    </h2>
+                    <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/581412d0-16f2-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-1y%2Cto%3Anow))" height="300" width="300"></iframe>
+                    </GridColumn>
+                </GridRow>
+              </Grid>
+            
+
             <Container>
                 <h2 className="ui header">
                     Monthly Active Users

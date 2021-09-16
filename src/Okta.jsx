@@ -84,7 +84,7 @@ const Okta = () => {
 
             <h1>License Compliance</h1>
             <Grid>
-                <GridRow columns="3">
+                <GridRow columns="2">
                     <GridColumn>
                     <h2 className="ui header">
                     Monthly Active Users
@@ -100,8 +100,6 @@ const Okta = () => {
                     <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/c5058b60-1573-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-1y%2Cto%3Anow))" height="300" width="300"></iframe></GridColumn>
                 </GridRow>
               </Grid>
-            <Container>
-            </Container>
             <Container>
                 <h2 className="ui header">
                     Monthly Active Users Growth
