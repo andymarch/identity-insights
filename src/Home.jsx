@@ -20,13 +20,15 @@ const Home = () => {
           <h3>Issue ❌</h3>
           <ul>
             <li>The Okta identity platform now has multiple panes of glass each of which require monitoring seperately.</li>
-            <li>Customers are dependant on CSM to query Tablau for records of MAU.</li>
-            <li>Customer's require data teams to build these tools toe access the data avaiable in each platform product.</li>
+            <li>Trust and transpancy are key Okta values, so enabling customers to easily view their own consumption/data is critical</li>
+            <li>Customer's today require data teams to build these tools to access the data avaiable in each platform product.</li>
+            <li>Customers today are dependant on CSM to query Tablau for records of MAU- which is rigid and inflexible. 80% of Okta customers don't have a CSM</li>
+            
           </ul>
 
           <h3>Solution ✅ </h3>
           <p>Using the new Okta log streaming integrate feeds from each component into AWS EventBridge to build an aggregated log. Push this aggregated log to OpenSearch and build queries based on customer requests.</p>
-          <p>This gives admins a to the minute report from all of the components in the platform in a form that is suitable for an ops room.</p>
+          <p>This gives admins a real time report from all of the components in the platform in a form that is suitable for an ops room.</p>
           <img style={{maxWidth:'100%'}} src="./hacktane-architecture.png" alt="architecture"/>
 
           <h3>The team 🧑‍💻</h3>

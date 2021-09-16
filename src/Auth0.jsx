@@ -76,15 +76,40 @@ const Auth0 = () => {
                     <h2 className="ui header">
                     Failed Authn Attempts last 24hours
                     </h2>
-                    <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=private#/edit/ce4878a0-1630-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow%2Fd%2Cto%3Anow%2Fd))" height="600" width="100%"></iframe>
+                    <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=private#/edit/ce4878a0-1630-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Cto%3Anow))" height="300" width="100%"></iframe>
                     </GridColumn>
                     <GridColumn>
                     <h2 className="ui header">
                     Most frequent failed users last 24hours
                     </h2>
-                    <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=private#/edit/1bd49d10-1631-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Cto%3Anow))" height="600" width="800"></iframe>
+                    <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=private#/edit/1bd49d10-1631-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Cto%3Anow))" height="300" width="100%"></iframe>
                     </GridColumn>
 
+                </GridRow>
+            </Grid>
+        </Container>
+        <Container className="productPanel">
+            
+            <Grid>
+                <GridRow columns="3">
+                    <GridColumn>
+                    <h2 className="ui header">
+                    Blocked Users last 24h
+                    </h2>
+                    <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/4f698500-16e5-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-24h%2Cto%3Anow))" height="300" width="100%"></iframe>
+                    </GridColumn>
+                    <GridColumn>
+                    <h2 className="ui header">
+                    New Users last 24h
+                    </h2>
+                    <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/5bb8e7a0-16e1-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-24h%2Cto%3Anow))" height="300" width="100%"></iframe>
+                    </GridColumn>
+                    <GridColumn>
+                    <h2 className="ui header">
+                    Deleted Users last 24h
+                    </h2>
+                    <iframe src="https://search-hacktane-lc7gniuymsydmk4lsp23cdd6uq.us-east-1.es.amazonaws.com/_dashboards/app/visualize?security_tenant=global#/edit/e9054a90-16e6-11ec-b2cc-51b429372e2a?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-24h%2Cto%3Anow))" height="300" width="100%"></iframe>
+                    </GridColumn>
                 </GridRow>
             </Grid>
         </Container>
